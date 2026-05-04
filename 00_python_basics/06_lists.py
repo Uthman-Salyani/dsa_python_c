@@ -1,3 +1,4 @@
+
 # basic list operations in Python
 
 def create_list():
@@ -118,3 +119,15 @@ def main():
 
 if __name__ == "__main__":
     main()
+=======
+import random 
+
+list = random.sample(range(10), 5)
+print(list)
+print(list[2:]) #start from index 2
+print(list[:3]) #end at index 3
+list.append(5) #adding an item to the list
+print(list)
+list_end = list[-1] #get the last element 
+print(list_end)
+>>>>>>> ed898ac (Basics)
